@@ -24,6 +24,7 @@ For this project, we will also perform image segmentation (using the ResUnet arc
 1. Understand and extract information from images at the pixel-level.
 2. Train a neural network to produce a pixel-wise mask of the image.
 3. Perform object recognition and localization. <br />
+
 In the Unet architecture, we encode the image into a vector and decode it back into an image with the same size. Unet formulates a loss function for every pizel in the input image.
 
 A softmax function is applied to every pixel, helping the segmentation problem work as a classification problem, wherein every pixel of the image undergoes classification.
